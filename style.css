@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+#gif-form {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: fixed;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+body {
+    background: #263238;
+}
+
+.search {
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    background: #455A64;
+    border: none;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.search:hover {
+    background: rgb(60, 76, 83);
+}
+
+
+
+.search-button {
+    width: 15%;
+    height: 100%;
+    background: #1E88E5;
+    border: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.2s ease-in-out;
+}
+
+.search-button:hover {
+    background: rgb(24, 124, 211);
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.results {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px 30px 0 30px;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.651);
+}
+
+.results img {
+    margin: 80px auto;
+    width: 100%;
+    /* max-width: 1200px; */
+}
